@@ -59,6 +59,13 @@ body {
   background: $bright-cyan;
 }
 
+.logo {
+  img {
+    width: 115px;
+    height: 14px;
+  }
+}
+
 .logo,
 .navigation {
   font-family: Open Sans;
@@ -191,8 +198,11 @@ body {
         border-radius: 5px;
         .gear-icon {
           margin-top: 1em;
+
+          width: 35px;
+          height: 35px;
         }
-        h4 {
+        span {
           font-size: 18px;
           font-weight: normal;
           line-height: 1.72;

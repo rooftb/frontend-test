@@ -53,6 +53,11 @@ body {
   background: #4ac1ff;
 }
 
+.logo img {
+  width: 115px;
+  height: 14px;
+}
+
 .logo,
 .navigation {
   font-family: Open Sans;
@@ -214,9 +219,11 @@ body {
 
 #cards .container .row .card .gear-icon {
   margin-top: 1em;
+  width: 35px;
+  height: 35px;
 }
 
-#cards .container .row .card h4 {
+#cards .container .row .card span {
   font-size: 18px;
   font-weight: normal;
   line-height: 1.72;
