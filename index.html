@@ -12,9 +12,12 @@
 <body>
     <header>
         <nav class="navbar">
+
             <a href="index.html"><img class='logo' src="/assets/img/logo.png" alt="Ion Test Logo"></a>
             <div class="collapse navbar-collapse" id="navbarCollapse">
+
                 <ul class="navigation">
+
                     <li class="nav-item">
                         <a href="#" class="nav-link">About</a>
                     </li>
@@ -32,10 +35,48 @@
                     </li>
                 </ul>
             </div>
+            <a class="menu-icon" href="#" href="#" data-drawer-trigger aria-controls="drawer-name"
+                aria-expanded="false">
+                <svg viewBox='0 0 10 8' width='40'>
+                    <path d='M1 1h8M1 4h 8M1 7h8' stroke='#4ac1ff' stroke-width='2' stroke-linecap='round' />
+                </svg>
+            </a>
         </nav>
+
+        <section class="drawer" id="drawer-name" data-drawer-target>
+            <div class="drawer__overlay" data-drawer-close tabindex="-1"></div>
+            <div class="drawer__wrapper">
+                <div class="drawer__header">
+                    <div class="drawer__title">
+                        <a href="index.html"><img class='logo' src="/assets/img/logo.png" alt="Ion Test Logo"></a>
+                    </div>
+                    <button class="drawer__close" data-drawer-close aria-label="Close Drawer"></button>
+                </div>
+                <div class="drawer__content">
+                    <ul class="navigation">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Careers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"><button class="ion-button">Contact</button></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
     </header>
 
-    <section id="hero-section">
+    <section class="hero-section">
         <div class="wrapper">
             <h1>This is the hero section</h1>
             <div>
@@ -47,7 +88,7 @@
         </div>
     </section>
 
-    <section id="h1-section">
+    <section class="h1-section">
         <div class="wrapper">
             <h1>This is the H1 for the page</h1>
             <span>
@@ -56,7 +97,7 @@
         </div>
     </section>
 
-    <section id="cards">
+    <section class="cards">
         <div class="container">
             <div class="row">
                 <div class="card">
@@ -87,6 +128,21 @@
         </div>
     </section>
 
+    <section class="contact-wrap">
+        <form>
+            <h1>Contact Us</h1>
+            <input name="name" type="text" class="feedback-input" placeholder="Name" />
+            <input name="email" type="text" class="feedback-input" placeholder="Email" />
+            <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+            <input type="submit" value="SUBMIT" />
+        </form>
+    </section>
+
+    <footer class="footer">
+
+        <span class="copyright">Ion Test © 2018</span>
+    </footer>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
