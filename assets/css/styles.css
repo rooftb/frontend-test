@@ -407,10 +407,9 @@ form h1 {
   border: 1px solid #4ac1ff;
 }
 
-.feedback-input textarea {
+#text-input {
   line-height: 150%;
   height: 150px;
-  resize: vertical;
   resize: none;
 }
 

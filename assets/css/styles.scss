@@ -384,14 +384,14 @@ form {
   &:focus {
     border: 1px solid $bright-cyan;
   }
-  textarea {
-    line-height: 150%;
+}
 
-    height: 150px;
+#text-input {
+  line-height: 150%;
 
-    resize: vertical;
-    resize: none;
-  }
+  height: 150px;
+
+  resize: none;
 }
 
 [type='submit'] {
