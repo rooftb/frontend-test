@@ -211,6 +211,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   height: 414px;
+  width: 100%;
   background-image: url("../img/hero.jpg");
   background-size: cover;
   -o-object-fit: contain;
@@ -230,7 +231,7 @@ body {
 }
 
 .hero-section .wrapper span {
-  font: 19px;
+  font-size: 19px;
   letter-spacing: 0.48px;
 }
 
