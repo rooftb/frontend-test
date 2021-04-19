@@ -534,4 +534,10 @@ footer .row {
     margin-top: 0.25em;
   }
 }
+
+@media all and (min-width: 600px) {
+  #drawer-name {
+    display: none;
+  }
+}
 /*# sourceMappingURL=styles.css.map */

@@ -416,10 +416,6 @@ footer .row {
     padding: 1em;
   }
 
-  //   .row {
-  //     flex-direction: column;
-  //   }
-
   .logo {
     margin: 0;
   }
@@ -443,6 +439,10 @@ footer .row {
   .menu-icon {
     display: inline;
   }
+
+  //   #drawer-name {
+  //     display: none;
+  //   }
 
   .collapse {
     display: none;
@@ -476,16 +476,8 @@ footer .row {
   }
 }
 
-// @media (prefers-color-scheme: dark) {
-//   :root {
-//     --background-color: #222;
-//     --font-color: #f6f6f6;
-//     --font-lighter-color: #ccc;
-//   }
-
-//   :root.light {
-//     --background-color: #f6f6f6;
-//     --font-color: #222;
-//     --font-lighter-color: #444;
-//   }
-// }
+@media all and (min-width: 600px) {
+  #drawer-name {
+    display: none;
+  }
+}
